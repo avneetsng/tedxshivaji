@@ -1,10 +1,15 @@
-.contact{
-    height:100vh;
-    // background-color:#212121;
+.contactus{
+    background-color: white;
+    color: black;
+    height: 100%;
+    padding-bottom: 5vh;
 
-    // &-head{
-    //     padding-top: 5rem;
-    //     font-size: 6rem;
-    // }
+    a{
+        margin-left: 3vw;
+    }
 
+    b{
+        margin-bottom: 10px;
+    }
 }
+

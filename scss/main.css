@@ -129,6 +129,19 @@ body {
   display: none;
   text-transform: lowercase; }
 
+.heading-secondary-2 {
+  position: relative;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image: linear-gradient(to right, black, black);
+  display: inline-block;
+  background-clip: none;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s; }
+
 .u-center-text {
   text-align: center; }
 
@@ -414,8 +427,15 @@ canvas {
 .count-particles {
   border-radius: 0 0 3px 3px; }
 
-.contact {
-  height: 100vh; }
+.contactus {
+  background-color: white;
+  color: black;
+  height: 100%;
+  padding-bottom: 5vh; }
+  .contactus a {
+    margin-left: 3vw; }
+  .contactus b {
+    margin-bottom: 10px; }
 
 .pep img {
   transition: all .2s;
@@ -484,6 +504,11 @@ canvas {
   background-color: #0D0D0D;
   padding-bottom: 30rem;
   padding-bottom: 10rem; }
+  .section-past .paragraph {
+    padding-top: 10vh; }
+  .section-past .peimg {
+    height: auto;
+    width: 100%; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {

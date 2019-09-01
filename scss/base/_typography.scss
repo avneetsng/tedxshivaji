@@ -113,3 +113,16 @@ body{
   display: none;
   text-transform: lowercase;
 }
+.heading-secondary-2{
+  position: relative;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image:linear-gradient(to right , black, black);
+  display: inline-block;
+  background-clip: none;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+}
