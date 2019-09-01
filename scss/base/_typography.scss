@@ -1,0 +1,115 @@
+body{
+  font-family: 'Lato';
+  font-weight: 400;
+  line-height: 1.7;
+  color:white;
+  font-size: 1.6rem;
+  // padding: 3rem;
+
+}
+
+.heading-primary{
+   cursor: default;
+    color: $color-white;
+    // text-transform: uppercase;
+    backface-visibility: hidden;
+    margin-bottom: 6rem;
+    
+      &--main
+      { color: red;
+        display: block;
+        font-size: 5rem;
+        font-weight:900;
+        letter-spacing: .2rem;
+        animation: moveInLeft 1s ease-out;
+        transition: all 0s;
+        // position:relative;
+
+        .ted{
+          position: relative;
+          margin-right: 2rem;
+        }
+         
+        .x{
+          position: absolute;
+          left:12rem;
+          top:2rem;
+          font-size: 3rem;
+          font-weight:900;
+
+          
+
+        }
+    
+       }
+      &--sub
+      {
+        display: block;
+        font-size: 2rem;
+        font-weight: 700;
+        letter-spacing: .6rem;
+        animation: moveInRight 1s ease-out;
+        transition: all 0s;
+      }
+    }
+ 
+.heading-secondary{
+  position: relative;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  background-image:linear-gradient(to right , white ,grey);
+  display: inline-block;
+  background-clip: none;
+  -webkit-background-clip: text;
+  color: transparent;
+  letter-spacing: .2rem;
+  transition: all .2s;
+  
+  &:hover{
+    transform: translate(-1rem) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black,.2);
+  } 
+
+  hr { 
+    margin-top: 2rem;
+    position: absolute;
+    left:15%;
+    height:.5rem; 
+    border:none; 
+    color:#b71c1c;
+    background-color:#b71c1c;
+    width: 70%;
+    
+    
+  }
+}
+
+
+
+.heading-tertiary{
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.paragraph{
+  font-size: 1.6rem;
+  &:not(:last-child){
+    margin-bottom: 3rem;
+    // animation:  moveInUp .2s ease-out;
+  }
+}
+
+.raise{
+  transition: all .2s;
+  &:hover{
+    transform: translate(-1rem) scale(1.1);
+    text-shadow: .5rem 1rem 2rem rgba($color-black,.2);
+  } 
+
+}
+
+.hidex{
+  display: none;
+  text-transform: lowercase;
+}

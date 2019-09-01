@@ -1,0 +1,72 @@
+.section-features{
+    padding: 20rem 0;
+    background-color: black;
+    background-image: linear-gradient(to right ,rgba(black, 0.8), rgba(grey, 0.9)),
+    url(https://upload.wikimedia.org/wikipedia/commons/e/e6/Shivaji_College.jpg);
+        // background-color: black;
+       background-size:cover; 
+     /* fit accourding to vw */
+     background-position: top;
+     transform: skewY(-7deg);
+     margin-top: -10rem;
+     &>*{
+    transform: skewy(7deg);
+
+     }
+    position: relative;
+
+
+    }
+
+.features-box{
+    margin-left: 25%;
+    margin-right:25%;
+    width: 50%;
+     display: inline-block;
+     background-color: rgba($color-white,.8);
+     text-align: center;
+     font-size: 1.5rem;
+     padding: 2.5rem;
+     border-radius: .3rem;
+    box-shadow: 0 1.5rem 4rem rgba($color-black,.15);
+    transition: transform .2s;
+
+     .blk{
+        display:block;
+        font-weight: 700;
+        text-align:left;
+        margin: 3rem 0;
+        color:#37474f ;
+
+        i{
+            margin: 0 1rem;
+            transition: all .2s ease-out;
+            
+            &:hover{
+                transform:scale(1.2);
+            }
+        }
+         
+        .bold{
+            font-weight:900;
+            color:black;
+        }
+       
+      }
+    
+    .smily{
+        //   font-size: 6rem;
+         // margin-bottom: .5rem;
+         display: inline-block;
+        background-image: linear-gradient(to right, $color-primary-light, $color-primary-dark);
+        background-clip: none;
+        -webkit-background-clip: text;
+        color: transparent;
+
+        
+    }
+
+    &:hover {
+        transform: translateY(-1.5rem) scale(1.03);
+    }
+    }

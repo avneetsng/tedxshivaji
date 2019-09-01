@@ -1,0 +1,17 @@
+.pep{
+
+    img{
+        transition: all .2s ;
+        width: 70%;
+        cursor: pointer;
+        margin-left: 15%;
+        &:hover{
+            transform: scale(1.1);
+            -webkit-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+            -moz-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+            box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+
+        }
+        
+    }
+}

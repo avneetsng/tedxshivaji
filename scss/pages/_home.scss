@@ -1,0 +1,28 @@
+.section-about{
+    background-color: black;
+    padding: 25rem 0;
+    margin-top: -10vh;
+
+    &__right{
+        position: relative;
+
+        &--col{
+            position: absolute;
+            top:10rem;
+
+
+        }
+    }
+
+}
+
+.section-past{
+    background-color: #0D0D0D  ;
+    // margin-top: -50vh;
+
+    padding-bottom: 30rem;
+    // padding-top: 17rem;
+    padding-bottom: 10rem;
+    
+
+}
