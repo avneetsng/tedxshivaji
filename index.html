@@ -82,7 +82,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-            
+    <link href="https://fonts.googleapis.com/css?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 
         <link rel="shortcut icon" href="./img/allrequiredpictures/tedxlogo2.jpg" type="image/x-icon">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -118,7 +118,7 @@
 
         <header class="header">
             
-                <nav class="NA transparent">
+                <nav class="transparent">
                         <div class="nav-wrapper">
                           <a href="#!" class="brand-logo"><img src="./img/LOGO.png" width="300rem"/></a>
                           <a href="#" data-target="mobile-demo" class="sidenav-trigger black"><i class="material-icons">menu</i></a>
@@ -144,14 +144,25 @@
                <img src="./img/allrequiredpictures/logo.png" alt="logo" class="header__logo">
              </div> -->
              <div class="header__text-box">
-                 <h1 class="heading-primary">
+                 <!-- <h1 class="heading-primary">
                      <span class="heading-primary--main"><span class="ted">TEDx<span class="hide">x</span> </span> <span class="x"><p></p></span> <span class="u-white-text">SHIVAJICOLLEGE</span></span>
                      <span class="heading-primary--sub"><span class="red-text">X</span>=independently organised ted event</span>
-                </h1>
+                </h1> -->
                  <!-- <a href="#main" class="btn btn--red  btn--animate "><span class="">GET</span></a> -->
+                 <img src="./img/LOGO.png" class="logo">
            </div>   
         </header>
-         
+         <div class="timer">
+            <div class="container">
+                <h1 id="head">COMING SOON</h1>
+                <ul>
+                  <li><span id="days"></span>days</li>
+                  <li><span id="hours"></span>Hours</li>
+                  <li><span id="minutes"></span>Minutes</li>
+                  <li><span id="seconds"></span>Seconds</li>
+                </ul>
+              </div>
+         </div>
         <main id="main">
             <section class="section-about">
                  <div class="u-center-text u-margin-bottom-big">
@@ -227,7 +238,7 @@
              <section class="section-past past-event" id='PE'>
                  <div class="u-center-text u-margin-bottom-big">
                      <h2 class="heading-secondary">
-                           PAST EVENT(2018)
+                           PAST EVENT
                          <hr>
                      </h2>
                     <br> <br>
@@ -236,7 +247,7 @@
                  <div class="row">
                     <div class="col-1-of-2">
                        
-                          <h3 class="heading-tertiary u-margin-bottom-small red-text">                           
+                          <h3 class="heading-tertiary u-margin-bottom-small red-text">2018                       
                           </h3>
                              <p class="paragraph">Haven't you always wondered what it would be like to take a moment for yourself in this busy life? 
                               The theme F5 discusses the importance of taking a step back from your busy life and hitting refresh. When your day gets busy,
@@ -262,7 +273,7 @@
                     </div> -->
                     <div class="pep">
                             <h3 class="heading-tertiary u-margin-bottom-small red-text center"> SPEAKERS                           
-                                </h3>
+                                </h3> <hr>
                                 <br><br>
                         
                         <div class="row">
@@ -469,6 +480,6 @@
            <script src="https://threejs.org/examples/js/libs/stats.min.js"></script>
 
          <!-- <script src="http://threejs.org/examples/js/libs/stats.min.js"></script> -->
-         <!-- <script src="./js/script.js"></script>  -->
+         <script src="./timer.js"></script> 
      </body>
 </html>

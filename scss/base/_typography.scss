@@ -66,10 +66,7 @@ body{
   letter-spacing: .2rem;
   transition: all .2s;
   
-  &:hover{
-    transform: translate(-1rem) scale(1.1);
-    text-shadow: .5rem 1rem 2rem rgba($color-black,.2);
-  } 
+ 
 
   hr { 
     margin-top: 2rem;
@@ -83,6 +80,19 @@ body{
     
     
   }
+}
+
+hr { 
+  margin-top: 2rem;
+  position: absolute;
+  left:46.6%;
+  height:.5rem; 
+  border:none; 
+  color:#b71c1c;
+  background-color:#b71c1c;
+  width: 7%;
+  
+  
 }
 
 
