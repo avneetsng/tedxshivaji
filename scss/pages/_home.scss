@@ -7,7 +7,7 @@
     // url('https://i.pinimg.com/originals/6a/9a/8b/6a9a8bc2e11be473e4d8f50cbfbf010e.gif');
     url('https://i.pinimg.com/originals/e1/bc/50/e1bc502b145883d561268d30c3d5c3c9.gif');
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size:100vw 100vh;
     height: 100vh;
     background-position: 50% 50%;
     background-attachment: fixed;
@@ -46,7 +46,11 @@ nav{
     .brand-logo{
            padding:2.5rem;
     }
-    
+   ul{
+     #home{
+       color: white
+     }
+   }
     ul a{
         padding: 2.5rem;
         color: rgb(209, 59, 59);
