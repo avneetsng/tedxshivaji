@@ -275,7 +275,7 @@ hr {
     transform: skewy(7deg); }
 
 .features-box {
-  margin-left: 25%;
+  margin-left: 20%;
   margin-right: 25%;
   width: 50%;
   display: inline-block;
@@ -421,7 +421,7 @@ hr {
   .header__text-box {
     position: absolute;
     top: 55%;
-    left: 53%;
+    left: 50%;
     transform: translate(-50%, -50%);
     text-align: center; }
 
@@ -613,22 +613,42 @@ nav {
     text-transform: lowercase; } }
 
 @media only screen and (max-width: 600px) {
+  .heading-secondary-2 {
+    font-size: 9rem; }
+  .section-past .peimg {
+    height: 30vh;
+    width: auto;
+    margin-left: 13vw;
+    margin-top: 8rem; }
+  .center, .center-align {
+    text-align: center;
+    font-size: 4rem; }
+  .heading-secondary {
+    font-size: 9rem; }
+  .header__text-box {
+    top: 67%; }
+  .heading-tertiary {
+    margin-top: 4rem;
+    font-size: 3.6rem; }
+  .u-margin-bottom-big {
+    margin-bottom: 3rem; }
+  .section-about__right--col {
+    /* top: 10rem; */
+    position: static; }
+  .paragraph {
+    font-size: 3rem; }
   html {
     font-size: 4.5px; }
   #particles-js {
-    background-size: auto; }
-  .section-past {
-    margin-top: -20vh; }
+    background-size: auto;
+    height: 85vh; }
   .row {
     padding: 5rem; }
-  .smily {
-    font-size: 4rem; }
   .section-past {
-    padding-bottom: 50rem;
-    padding-top: 8rem;
+    padding: 0px;
     font-size: 8px; }
   .section-about {
-    margin-top: -10vh; }
+    padding: 0rem; }
     .section-about__right--comp {
       display: block;
       margin-top: 5vh; }

@@ -16,6 +16,47 @@
 
 @media only screen and (max-width: 600px) {
 
+    .heading-secondary-2 {
+        font-size: 9rem;
+    }
+
+    .section-past .peimg {
+        height: 30vh;
+        width: auto;
+        margin-left: 13vw;
+        margin-top: 8rem;
+    }
+
+    .center, .center-align {
+        text-align: center;
+        font-size: 4rem;
+    }
+    .heading-secondary{
+        font-size: 9rem;
+    }
+
+    
+    .header__text-box {
+     
+        top: 67%;}
+        
+
+    .heading-tertiary{
+        margin-top: 4rem;
+        font-size: 3.6rem;
+    }
+
+    .u-margin-bottom-big{margin-bottom: 3rem;}
+
+    .section-about__right--col {
+        /* top: 10rem; */
+        position: static;
+    }
+
+    .paragraph{
+        font-size: 3rem;
+    }
+
 
     
     html{
@@ -24,12 +65,9 @@
    
     #particles-js {
         background-size: auto;
+        height: 85vh;
     }
 
-    .section-past{
-        margin-top: -20vh;
-
-    }
 
     
    
@@ -38,24 +76,17 @@
         padding: 5rem;
     }
 
-    .smily{
-        font-size: 4rem;
-
-    }   
+     
 
     .section-past{
-        padding-bottom: 50rem;
-        padding-top: 8rem;
+      padding: 0px;
         font-size: 8px;
         
     }
 
     .section-about{
-        margin-top:-10vh;
-        // padding-bottom: 10rem;
-        // m: 5vh;  
-        // background-color:black;
-      
+        
+      padding: 0rem;
 
        &__right--comp {
            display: block;  
@@ -135,4 +166,6 @@
 
             
 }
+
+
 
