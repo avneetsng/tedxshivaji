@@ -22,10 +22,14 @@
 
     .section-past .peimg {
         height: 30vh;
-        width: auto;
-        margin-left: 13vw;
+        width: 60vw;
         margin-top: 8rem;
-        margin-left: 16rem;
+    
+    }
+
+    #pepimg{
+        width: 60vw;
+        margin: auto;
     }
 
     .center, .center-align {
@@ -154,9 +158,10 @@
         
                     height: 10%;
                 }
-                margin-top: 35rem;
+                
            
                 .col-1-of-3 {
+                    overflow: hidden;
                    width: calc((100% - 2 * #{$gutter-horizontal}));
                    margin-left: $gutter-horizontal;
                    margin-bottom: $gutter-horizontal*2;
@@ -165,6 +170,10 @@
            
            }
 
+           .row .col-1-of-3 {
+            word-break: break-word;}
+
+           
             
 }
 

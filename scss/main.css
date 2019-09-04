@@ -618,10 +618,11 @@ nav {
     font-size: 9rem; }
   .section-past .peimg {
     height: 30vh;
-    width: auto;
-    margin-left: 13vw;
-    margin-top: 8rem;
-    margin-left: 16rem; }
+    width: 60vw;
+    margin-top: 8rem; }
+  #pepimg {
+    width: 60vw;
+    margin: auto; }
   .center, .center-align {
     text-align: center;
     font-size: 4rem; }
@@ -685,11 +686,12 @@ nav {
     font-size: 2.5rem; }
   .row .col-1-of-2 {
     width: 100%; }
-  .pepmain {
-    margin-top: 35rem; }
-    .pepmain img {
-      height: 10%; }
-    .pepmain .col-1-of-3 {
-      width: calc((100% - 2 * 6rem));
-      margin-left: 6rem;
-      margin-bottom: 12rem; } }
+  .pepmain img {
+    height: 10%; }
+  .pepmain .col-1-of-3 {
+    overflow: hidden;
+    width: calc((100% - 2 * 6rem));
+    margin-left: 6rem;
+    margin-bottom: 12rem; }
+  .row .col-1-of-3 {
+    word-break: break-word; } }
