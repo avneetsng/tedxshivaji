@@ -97,26 +97,6 @@ body {
   color: transparent;
   letter-spacing: .2rem;
   transition: all .2s; }
-  .heading-secondary hr {
-    margin-top: 2rem;
-    position: relative;
-    left: 15%;
-    height: .4rem;
-    border: none;
-    color: #b71c1c;
-    background-color: #b71c1c;
-    width: 70%; }
-
-hr {
-  margin-top: 2rem;
-  position: relative;
-  left: 46.3%;
-  height: .4rem;
-  border: none;
-  color: #ffffff;
-  background-color: #ffffff;
-  width: 8%;
-  top: -1rem; }
 
 .heading-tertiary {
   font-size: 1.8rem;
@@ -460,6 +440,7 @@ hr {
   color: white;
   position: relative;
   top: 70vh;
+  font-family: 'Share Tech Mono', monospace;
   font-weight: 900;
   font-size: 3rem; }
 
@@ -623,7 +604,8 @@ nav {
   word-spacing: 9rem; }
 
 #timer {
-  margin-top: 5rem; }
+  background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
+  background-attachment: fixed; }
 
 .info {
   text-align: center;
