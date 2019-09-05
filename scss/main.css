@@ -393,7 +393,7 @@ hr {
     font-weight: 100; }
 
 .contactus {
-  background-color: white;
+  background-color: #c75e0f;
   color: black;
   height: 100%;
   padding-bottom: 5vh; }
@@ -487,7 +487,7 @@ hr {
       top: 10rem; }
 
 .logo {
-  width: 50vw; }
+  width: 43vw; }
 
 nav {
   font-family: 'Share Tech Mono', monospace;
@@ -511,7 +511,7 @@ nav {
       color: white; }
 
 .section-past {
-  background-color: #0D0D0D;
+  background-color: black;
   margin-top: 5rem;
   padding-bottom: 30rem;
   padding-bottom: 10rem; }
@@ -620,7 +620,7 @@ nav {
 #bar {
   background-color: #c75e0f;
   height: 100%;
-  word-spacing: 13rem; }
+  word-spacing: 9rem; }
 
 #timer {
   margin-top: 5rem; }
