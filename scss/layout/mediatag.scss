@@ -15,6 +15,12 @@
 }
 
 @media only screen and (max-width: 600px) {
+    .downArrow {
+        top: 86%;}
+
+        #bar {
+            word-spacing: 3rem;
+        }
 
     .heading-secondary-2 {
         font-size: 9rem;
@@ -70,7 +76,11 @@
    
     #particles-js {
         background-size: auto;
-        height: 85vh;
+        height: 100%;
+    }
+
+    .info{
+        top: 66vh;
     }
 
 
