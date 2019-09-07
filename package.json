@@ -5,11 +5,12 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "compile:sass":"node-sass scss/main.scss scss/main.css -w"
+    "compile:sass": "node-sass scss/main.scss scss/main.css -w"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "node-sass": "^4.12.0"
-  }
+  },
+  "dependencies": {}
 }
