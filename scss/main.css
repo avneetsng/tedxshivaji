@@ -98,6 +98,16 @@ body {
   letter-spacing: .2rem;
   transition: all .2s; }
 
+hr {
+  margin-top: 2rem;
+  height: .4rem;
+  border: none;
+  color: #ffffff;
+  background-color: #ffffff;
+  width: 90vw;
+  margin: auto;
+  top: -1rem; }
+
 .heading-tertiary {
   font-size: 3rem;
   font-weight: 700; }
@@ -693,6 +703,16 @@ nav {
 .map {
   margin-bottom: 1rem;
   margin-top: 2rem; }
+
+.social-media {
+  margin: 10rem; }
+  .social-media i {
+    width: 1rem;
+    height: auto; }
+
+.soical-media-main {
+  margin-top: 10rem;
+  margin-bottom: 10rem; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
