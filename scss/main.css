@@ -382,6 +382,7 @@ hr {
     font-weight: 100; }
 
 .contactus {
+  font-size: 2rem;
   background-color: #c75e0f;
   color: black;
   height: 100%;
@@ -713,6 +714,9 @@ nav {
 .soical-media-main {
   margin-top: 10rem;
   margin-bottom: 10rem; }
+
+.add-margin {
+  margin-top: 9rem; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
