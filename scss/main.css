@@ -375,7 +375,9 @@ body {
   background-color: #c75e0f;
   color: black;
   height: 100%;
-  padding-bottom: 5vh; }
+  padding-bottom: 5vh;
+  background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
+  background-attachment: fixed; }
   .contactus a {
     margin-left: 3vw; }
   .contactus b {
@@ -687,6 +689,10 @@ nav {
 .themeimg {
   width: 90%;
   height: auto; }
+
+.map {
+  margin-bottom: 1rem;
+  margin-top: 2rem; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
