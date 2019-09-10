@@ -703,7 +703,8 @@ nav {
 
 .map {
   margin-bottom: 1rem;
-  margin-top: 2rem; }
+  margin-top: 2rem;
+  overflow: hidden; }
 
 .social-media {
   margin: 10rem; }
@@ -711,12 +712,12 @@ nav {
     width: 1rem;
     height: auto; }
 
-.soical-media-main {
-  margin-top: 10rem;
-  margin-bottom: 10rem; }
-
 .add-margin {
   margin-top: 9rem; }
+
+.soical-media-main {
+  margin-top: 6rem;
+  margin-bottom: 7rem; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
@@ -857,4 +858,10 @@ nav {
   .timer {
     font-size: 2rem; }
     .timer h1 {
-      font-size: 6.2rem; } }
+      font-size: 6.2rem; }
+  .social-media a img {
+    width: 19rem;
+    height: auto; }
+  .leftplus {
+    margin-left: 13.5rem !important;
+    font-size: 3.3rem; } }
