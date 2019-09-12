@@ -269,8 +269,10 @@ color: #2ecc71;
 margin-top: 1rem;
 height: 64rem;
 padding: 4rem;
-padding-top: 6.5rem !important;
+padding-top: 8.5vw !important;
     // font-size: 2.1rem;
+    .element::-webkit-scrollbar { width: 0 !important }
+
     
 
 }
@@ -319,7 +321,7 @@ padding-top: 6.5rem !important;
   margin-top: 5rem;
   margin-bottom: 7rem;
   img{
-    height: 11rem;
+    height: 7rem;
   }
 
 }

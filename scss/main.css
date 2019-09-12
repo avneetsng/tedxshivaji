@@ -696,7 +696,9 @@ nav {
   margin-top: 1rem;
   height: 64rem;
   padding: 4rem;
-  padding-top: 6.5rem !important; }
+  padding-top: 8.5vw !important; }
+  .theme .element::-webkit-scrollbar {
+    width: 0 !important; }
 
 .themeimg {
   width: 90%;
@@ -720,7 +722,7 @@ nav {
   margin-top: 5rem;
   margin-bottom: 7rem; }
   .soical-media-main img {
-    height: 11rem; }
+    height: 7rem; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
