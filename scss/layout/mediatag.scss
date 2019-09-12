@@ -14,7 +14,23 @@
 
 }
 
+
+@media only screen and (min-width: 600px){
+
+    .top-team{
+        margin-left: 12.5vw !important;
+
+    }
+
+
+}
+
+
 @media only screen and (max-width: 600px) {
+
+    .hidden{
+        display: none;
+    }
     .theme{
         background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
         background-attachment: fixed;
@@ -96,6 +112,7 @@
 
     #pepimg{
         width: 60vw;
+        // width: 17vw;
         margin: auto;
     }
 
