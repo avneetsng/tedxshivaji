@@ -405,15 +405,9 @@ hr {
 .pep img {
   transition: all .2s;
   width: 65%;
+  max-height: 29.466rem;
   cursor: pointer;
   margin-left: 15%; }
-  .pep img:hover {
-    background-image: rgba(0, 0, 0, 0.199);
-    -webkit-box-shadow: -15px 21px 45px -26px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: -15px 21px 45px -26px rgba(0, 0, 0, 0.75);
-    box-shadow: -15px 21px 45px -26px rgba(0, 0, 0, 0.75);
-    -webkit-animation: shine .75s;
-    animation: shine .75s; }
 
 .leftplus {
   margin-left: 5.5rem !important; }
@@ -748,6 +742,12 @@ li.tab.col.s3 {
 .carousel.carousel-slider .carousel-item {
   height: 37vh !important; }
 
+.PARTNERS {
+  background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
+  background-attachment: fixed;
+  padding-bottom: 7rem;
+  padding-top: rem; }
+
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
     display: none;
@@ -760,7 +760,9 @@ li.tab.col.s3 {
 
 @media only screen and (min-width: 600px) {
   .top-team {
-    margin-left: 12.5vw !important; } }
+    margin-left: 12.5vw !important; }
+  .top-partner {
+    margin-left: 20vw !important; } }
 
 @media only screen and (max-width: 600px) {
   .hidden {

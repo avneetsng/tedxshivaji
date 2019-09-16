@@ -13,18 +13,19 @@
 
     img{
         transition: all .2s ;
-        width: 65%;
+		width: 65%;
+		max-height:29.466rem; 
         cursor: pointer;
         margin-left: 15%;
-        &:hover{
-            background-image: rgba(0, 0, 0, 0.199);
-            -webkit-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
-            -moz-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
-            box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
-            -webkit-animation: shine .75s;
-	      animation: shine .75s;
+        // &:hover{
+        //     background-image: rgba(0, 0, 0, 0.199);
+        //     -webkit-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+        //     -moz-box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+        //     box-shadow: -15px 21px 45px -26px rgba(0,0,0,0.75);
+        //     -webkit-animation: shine .75s;
+	    //   animation: shine .75s;
 
-        }
+        // }
         
     }
 }
