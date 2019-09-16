@@ -1,3 +1,5 @@
+
+
 const second = 1000,
       minute = second * 60,
       hour = minute * 60,
@@ -20,19 +22,28 @@ let countDown = new Date('nov 5, 2019 09:00:00').getTime(),
       //  'IT'S MY BIRTHDAY!;
       //}
 
-    }, second)
+    }, second);
+
+    $(document).ready(function(){
+      $('ul.tabs').tabs({
+        swipeable : true,
+        responsiveThreshold : 1920
+      });
+    });
 
 
 
     ///
-    document.addEventListener('DOMContentLoaded', function() {
-        var elems = document.querySelectorAll('.parallax');
-        var instances = M.Parallax.init(elems, options);
-      });
+    // document.addEventListener('DOMContentLoaded', function() {
+    //     var elems = document.querySelectorAll('.parallax');
+    //     var instances = M.Parallax.init(elems, options);
+    //   });
     
-      // Or with jQuery
+    //   // Or with jQuery
     
-      $(document).ready(function(){
-        $('.parallax').parallax();
-      });
+    //   $(document).ready(function(){
+    //     $('.parallax').parallax();
+    //   });
             
+  
+ 

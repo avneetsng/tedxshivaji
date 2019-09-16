@@ -529,10 +529,8 @@ hr {
 
 .section-about {
   background-color: black;
-  padding: 25rem 0;
   margin-top: 5vh;
-  padding-top: 0rem;
-  padding-bottom: 10rem; }
+  padding-top: 0rem; }
   .section-about__right {
     position: relative; }
     .section-about__right--col {
@@ -723,6 +721,32 @@ nav {
   margin-bottom: 7rem; }
   .soical-media-main img {
     height: 7rem; }
+
+.carousel .carousel-item {
+  width: 100%; }
+
+.text-center {
+  padding: 7.5vw 22vw;
+  padding-bottom: 0px; }
+
+.tabs .tab a {
+  color: white; }
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  background-color: transparent;
+  color: #d13b3b; }
+
+.tabs {
+  background-color: black; }
+
+li.tab.col.s3 {
+  margin-left: 21vw; }
+
+.carousel.carousel-slider .carousel-item {
+  min-height: 0px; }
+
+.carousel.carousel-slider .carousel-item {
+  height: 37vh !important; }
 
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
