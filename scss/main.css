@@ -737,7 +737,7 @@ li.tab.col.s3:first-child {
   margin-left: 12vw; }
 
 li.tab.col.s3:not(:first-child) {
-  margin-left: 19vw; }
+  margin-left: 10vw; }
 
 li.tab.col.s3:nth-child(2) {
   margin-left: 26vw; }
@@ -749,7 +749,6 @@ li.tab.col.s3:nth-child(2) {
   height: 37vh !important; }
 
 .PARTNERS {
-  background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
   background-attachment: fixed;
   padding-bottom: 7rem;
   padding-top: rem; }
