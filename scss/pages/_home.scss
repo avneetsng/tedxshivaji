@@ -321,6 +321,11 @@ padding-top: 8.5vw !important;
   margin-top: 5rem;
   margin-bottom: 7rem;
   img{
+    filter: grayscale(1);
+
+    &:hover{
+      filter: none;
+    }
     height: 7rem;
   }
 
