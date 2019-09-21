@@ -758,7 +758,7 @@ li.tab.col.s3:nth-child(2) {
   .PARTNERS b {
     font-size: 2rem; }
   .PARTNERS img {
-    filter: grayscale(1);
+    filter: grayscale(0);
     width: 16rem; }
     .PARTNERS img:hover {
       filter: none; }
