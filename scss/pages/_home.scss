@@ -321,7 +321,7 @@ padding-top: 8.5vw !important;
   margin-top: 5rem;
   margin-bottom: 7rem;
   img{
-    filter: grayscale(1);
+    filter: grayscale(0);
 
     &:hover{
       filter: none;
@@ -470,4 +470,9 @@ li.tab.col.s3:nth-child(2){
     width: 33rem;
     margin-left: -9rem;
   }
+}
+
+.eye{
+  position: relative;
+  top: -8rem;
 }
