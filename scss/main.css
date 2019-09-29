@@ -931,7 +931,7 @@ li.tab.col.s3:nth-child(2) {
   .row:not(:last-child) {
     margin-bottom: 0rem; }
   .timer {
-    font-size: 2rem; }
+    font-size: 1.5rem; }
     .timer h1 {
       font-size: 6.2rem; }
   .social-media a img {
@@ -939,4 +939,6 @@ li.tab.col.s3:nth-child(2) {
     height: auto; }
   .leftplus {
     margin-left: 13.5rem !important;
-    font-size: 3.3rem; } }
+    font-size: 3.3rem; }
+  .social-media a img {
+    width: 8rem; } }
