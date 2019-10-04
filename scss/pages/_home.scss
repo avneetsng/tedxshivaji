@@ -70,7 +70,7 @@ nav{
     ul a{
         padding: 2.5rem;
         color: rgb(209, 59, 59);
-        font-size: 2rem;
+        font-size: 1.3rem;
         font-weight: 900;
 
         &:hover{
@@ -90,7 +90,7 @@ nav{
 
     padding-bottom: 30rem;
     // padding-top: 17rem;
-    padding-bottom: 10rem;
+    padding-bottom: 0rem;
 
     .paragraph{
         padding-top:3rem;
@@ -105,10 +105,10 @@ nav{
 }
 
 .timer{
-    height: 30rem;
+    // height: 30rem;
     width:100%;
-    padding-top: 5rem;
-    padding-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
     // font-family: 'Share Tech Mono', monospace;
     font-family: 'Montserrat', sans-serif;
     background-color: rgb(0, 0, 0);
@@ -155,8 +155,15 @@ nav{
       
       li span {
         display: block;
-        font-size: 4.5rem;
+        // font-size: 4.5rem;
       }
+}
+
+#bar{
+  
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+    word-spacing: 5rem;
 }
 
 #arrow{
@@ -251,11 +258,14 @@ color: #2ecc71;
 }
 
 #timer{
+  h1{
+    font-size: 3.2rem;
+  }
   // margin-top: 5rem;
   // background-image: url(https://cdn.wallpapersafari.com/88/77/M3qWtJ.jpg);
   background-color: 	rgb(199, 94, 15);
   background-attachment: fixed;
-
+  font-size: 1.3rem ;
 
 }
 

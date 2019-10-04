@@ -88,7 +88,6 @@ body {
   font-family: 'Montserrat', sans-serif;
   position: relative;
   font-size: 5rem;
-  text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(to right, white, grey);
   display: inline-block;
@@ -129,7 +128,6 @@ hr {
 
 .heading-secondary-2 {
   position: relative;
-  font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 700;
   background-image: linear-gradient(to right, black, black);
@@ -381,16 +379,17 @@ hr {
     font-weight: 100; }
 
 .contactus {
-  font-size: 2rem;
   background-color: #c75e0f;
   color: black;
   height: 100%;
-  padding-bottom: 5vh;
+  padding-bottom: 1vh;
   background-attachment: fixed; }
   .contactus a {
     margin-left: 3vw; }
   .contactus b {
     margin-bottom: 10px; }
+  .contactus row div {
+    margin-bottom: 2rem; }
 
 @-webkit-keyframes shine {
   100% {
@@ -545,7 +544,7 @@ nav {
   nav ul a {
     padding: 2.5rem;
     color: #d13b3b;
-    font-size: 2rem;
+    font-size: 1.3rem;
     font-weight: 900; }
     nav ul a:hover {
       color: white; }
@@ -556,7 +555,7 @@ nav {
   background-color: black;
   margin-top: 5rem;
   padding-bottom: 30rem;
-  padding-bottom: 10rem; }
+  padding-bottom: 0rem; }
   .section-past .paragraph {
     padding-top: 3rem; }
   .section-past .peimg {
@@ -564,10 +563,9 @@ nav {
     width: 100%; }
 
 .timer {
-  height: 30rem;
   width: 100%;
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
   font-family: 'Montserrat', sans-serif;
   background-color: black; }
   .timer .container {
@@ -589,8 +587,12 @@ nav {
     list-style-type: none;
     padding: 1em; }
   .timer li span {
-    display: block;
-    font-size: 4.5rem; }
+    display: block; }
+
+#bar {
+  padding-top: 0rem;
+  padding-bottom: 0rem;
+  word-spacing: 5rem; }
 
 #arrow {
   color: white; }
@@ -666,7 +668,10 @@ nav {
 
 #timer {
   background-color: #c75e0f;
-  background-attachment: fixed; }
+  background-attachment: fixed;
+  font-size: 1.3rem; }
+  #timer h1 {
+    font-size: 3.2rem; }
 
 .info {
   text-align: center;
