@@ -798,6 +798,12 @@ nav {
   position: relative;
   height: 15vh; }
 
+#speakers .pep img {
+  transition: all .2s;
+  width: 100%;
+  cursor: pointer;
+  margin-left: 0px; }
+
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
     display: none;
@@ -815,6 +821,9 @@ nav {
     margin-left: 20vw !important; } }
 
 @media only screen and (max-width: 600px) {
+  nav .brand-logo img {
+    width: 51rem;
+    margin-left: 4rem; }
   .hidden {
     display: none; }
   .theme {
@@ -868,7 +877,8 @@ nav {
     margin: auto; }
   .center, .center-align {
     text-align: center;
-    font-size: 4rem; }
+    font-size: 4rem;
+    word-break: initial; }
   .heading-secondary {
     font-size: 9rem; }
   .header__text-box {
@@ -953,4 +963,4 @@ nav {
     margin-left: 13.5rem !important;
     font-size: 3.3rem; }
   .social-media a img {
-    width: 8rem; } }
+    width: 7rem; } }
