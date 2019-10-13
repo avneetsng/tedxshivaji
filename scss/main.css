@@ -804,6 +804,12 @@ nav {
   cursor: pointer;
   margin-left: 0px; }
 
+.speaker-content {
+  margin-top: 9.5rem; }
+
+#speakers .row:not(:last-child) {
+  margin-bottom: 0rem; }
+
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
     display: none;

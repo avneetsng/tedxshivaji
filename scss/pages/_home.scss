@@ -521,3 +521,13 @@ nav{
 
 }
 
+.speaker-content{
+  margin-top: 9.5rem;
+
+}
+
+#speakers{
+  .row:not(:last-child) {
+    margin-bottom: 0rem;
+}
+}
