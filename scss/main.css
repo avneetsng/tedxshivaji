@@ -817,6 +817,9 @@ nav {
 .media img {
   margin-left: 16rem; }
 
+#aopc {
+  width: 30rem; }
+
 @media only screen and (max-width: 1413px) {
   .heading-primary--main .x {
     display: none;
